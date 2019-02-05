@@ -1,4 +1,5 @@
-#Author: Dr. Vishal Bhardwaj [IISER Mohali]
+# Dr. Vishal Bhardwaj [IISER Mohali]
+# Jagmeet Singh [IISER Mohali]
 #Usage python Weight_1.py ./path_to_h5_file
 
 import sys
