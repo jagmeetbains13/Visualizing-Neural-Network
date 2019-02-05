@@ -41,7 +41,8 @@ branch_names = ["B_ThrustB", "B_ThrustO",    "B_CosTBTO","B_CosTBz","B_cc1","B_c
 Outputs = ["Signal", "Background"]
 
 ```
-- Keras *load_model* method loads the *.h5* file. *model.layers[i].get_weights()* returns the weights from i<sup>th</sup> layer to i+1 layer. array with two elements. The first element is a matrix of order
+- Keras *load_model* method loads the *.h5* file. 
+- *model.layers[i].get_weights()* returns the weights from i<sup>th</sup> layer to i+1<sup>th</sup> layer. It contain two elements. The first element is a matrix of order len(i<sup>th</sup>) * len(i+1<sup>th</sup>) layer.
 
 ```
 from keras.models import load_model
