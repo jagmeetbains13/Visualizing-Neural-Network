@@ -19,6 +19,8 @@ The network has two output units as the final layer.
 
 - [nnplot.py](https://github.com/jagmeetbains13/Visualizing-Neural-Network/blob/master/nnplot.py) file contains the functions to draw various shapes and lines to generate the final graph. These functions are imported in the [Weight_1.py](https://github.com/jagmeetbains13/Visualizing-Neural-Network/blob/master/Weight_1.py) file. The functions use the weight array, co-ordinates, width, height and color as input arguments. matplotlib functions are used to draw the shapes and lines in the graph.
 ```
+# Functions in the nnplot.py file::
+
  Myrectangle(ax1,x1,y1,width, height,Linewidth='2',Edgecolor='red',FColor='none',Alpha=1)
  DrawLine(ax1,x1,y1,width,height,Ndim,Color='r')
  DrawBoxesWModif(ax1,x1,y1,width,height,Ndim, Weight)
