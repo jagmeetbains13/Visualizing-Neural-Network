@@ -5,7 +5,7 @@ Here, we wrote the code which loads the model from the .h5 file and plots the tr
 ![Model Visualisation](https://github.com/jagmeetbains13/Visualizing-Neural-Network/blob/master/Images/Final_Network_256_M1.png)
 
 ## Description
-The .h5 file contains the weights of the neural network that has been trained.
+The .h5 file contains the weights of the neural network that has been trained. By using the values of the weights, a graph can be drawn which tells about the importance of each link and node in the neural network. This is a very good way to visualise the model without exploring the .h5 file.
 ### Above Example
 Red color corresponds to the positive value of weights with brightest color having largest value.
 Green color corresponds to the negative value of weights with brightest color having largest negative value.
