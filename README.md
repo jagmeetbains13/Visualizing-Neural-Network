@@ -14,7 +14,7 @@ The .h5 file contains the weights of the neural network that has been trained. B
 The network has three hidden layers with 64 nodes in each layer with the dense connections.
 The network has two output units as the final layer.
 
-### Coding Files
+### Files
 - [Weight_1.py](https://github.com/jagmeetbains13/Visualizing-Neural-Network/blob/master/Weight_1.py) is the file that loads the .h5 file and creates the graph as given above.
 
 - [nnplot.py](https://github.com/jagmeetbains13/Visualizing-Neural-Network/blob/master/nnplot.py) file contains the functions to draw various shapes and lines to generate the final graph. These functions are imported in the Weight_1.py fileThe functions use the weight array, co-ordinates, width, height and color as input arguments. matplotlib functions are used to draw the shapes and lines in the graph.
