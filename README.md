@@ -49,7 +49,7 @@ Outputs = ["Signal", "Background"]
 
   - The second element is the array of length of nodes((i+1)<sup>th</sup>) layer. It describes the weights of bias layer.
 
-```
+```python
 from keras.models import load_model
 model=load_model(path)
 weights = []
