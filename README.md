@@ -18,7 +18,7 @@ The network has two output units as the final layer.
 - [Weight_1.py](https://github.com/jagmeetbains13/Visualizing-Neural-Network/blob/master/Weight_1.py) is the file that loads the .h5 file and creates the graph as given above.
 
 - [nnplot.py](https://github.com/jagmeetbains13/Visualizing-Neural-Network/blob/master/nnplot.py) file contains the functions to draw various shapes and lines to generate the final graph. These functions are imported in the [Weight_1.py](https://github.com/jagmeetbains13/Visualizing-Neural-Network/blob/master/Weight_1.py) file. The functions use the weight array, co-ordinates, width, height and color as input arguments. *matplotlib* functions are used to draw the shapes and lines in the graph.
-```
+```python
 # Functions in the nnplot.py file::
 
  Myrectangle(ax1,x1,y1,width, height,Linewidth='2',Edgecolor='red',FColor='none',Alpha=1)
@@ -35,7 +35,7 @@ The network has two output units as the final layer.
 ### Main Code
 
 - *branch_names* and *Outputs* are the labels for the input layer and output layer respectively.
-```
+```python
 branch_names = ["B_ThrustB", "B_ThrustO",    "B_CosTBTO","B_CosTBz","B_cc1","B_cc2","B_cc3","B_cc4","B_cc5","B_cc6","B_cc7","B_cc8","B_cc9","B_mm2","B_et","B_hso00","B_hso01","B_hso02","B_hso03","B_hso04","B_hso10","B_hso12","B_hso14","B_hso20","B_hso22","B_hso24","B_hoo0","B_hoo1","B_hoo2","B_hoo3","B_hoo4","B_qpElectron","B_qpFSC","B_qpFastHadron","B_qpIntermediateElectron","B_qpIntermediateMuon","B_qpIntermediateKinLepton","B_qpKaon","B_qpKaonPion","B_qpKinLepton","B_qpLambda","B_qpMaximumPstar","B_qpMuon","B_qpSlowPion"]
 
 Outputs = ["Signal", "Background"]
